@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane minWidth="1024.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mijnlieff.viewerMode.ButtonCompanion">
+   <bottom>
+      <VBox BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="BOTTOM_CENTER" minWidth="1000.0" prefHeight="60.0" prefWidth="1000.0">
+               <children>
+                  <Button fx:id="start" disable="true" minHeight="40.0" minWidth="50.0" mnemonicParsing="false" onAction="#getStart" prefWidth="10000" text="|&lt;" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="vorige" disable="true" minHeight="40.0" minWidth="50.0" mnemonicParsing="false" onAction="#getVorige" prefWidth="10000" text="&lt;" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="volgende" minHeight="40.0" minWidth="50.0" mnemonicParsing="false" onAction="#getVolgende" prefWidth="10000" text="&gt;" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="laatste" minHeight="40.0" minWidth="50.0" mnemonicParsing="false" onAction="#getLaatste" prefWidth="10000" text="&gt;|" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>
